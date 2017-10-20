@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D7CFC3451F9A725D009464A3 /* STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3431F9A725D009464A3 /* STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7CFC36B1F9A7276009464A3 /* STTwitterAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC34B1F9A7274009464A3 /* STTwitterAPI.h */; };
-		D7CFC36C1F9A7276009464A3 /* STTwitterStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC34C1F9A7274009464A3 /* STTwitterStreamParser.h */; };
+		D7CFC36B1F9A7276009464A3 /* STTwitterAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC34B1F9A7274009464A3 /* STTwitterAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CFC36C1F9A7276009464A3 /* STTwitterStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC34C1F9A7274009464A3 /* STTwitterStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC36D1F9A7276009464A3 /* STTwitterAppOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC34D1F9A7274009464A3 /* STTwitterAppOnly.m */; };
 		D7CFC36E1F9A7276009464A3 /* STHTTPRequest+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC34E1F9A7274009464A3 /* STHTTPRequest+STTwitter.m */; };
-		D7CFC36F1F9A7276009464A3 /* NSString+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC34F1F9A7274009464A3 /* NSString+STTwitter.h */; };
-		D7CFC3701F9A7276009464A3 /* STTwitterOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3501F9A7274009464A3 /* STTwitterOAuth.h */; };
+		D7CFC36F1F9A7276009464A3 /* NSString+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC34F1F9A7274009464A3 /* NSString+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CFC3701F9A7276009464A3 /* STTwitterOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3501F9A7274009464A3 /* STTwitterOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC3711F9A7276009464A3 /* NSError+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3511F9A7274009464A3 /* NSError+STTwitter.m */; };
 		D7CFC3721F9A7276009464A3 /* STTwitterOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3521F9A7274009464A3 /* STTwitterOSRequest.m */; };
 		D7CFC3731F9A7276009464A3 /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3531F9A7274009464A3 /* STTwitterOS.m */; };
@@ -23,21 +23,21 @@
 		D7CFC3771F9A7276009464A3 /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3581F9A7275009464A3 /* JSONSyntaxHighlight.m */; };
 		D7CFC3781F9A7276009464A3 /* STHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3591F9A7275009464A3 /* STHTTPRequest.h */; };
 		D7CFC3791F9A7276009464A3 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC35A1F9A7275009464A3 /* STHTTPRequest.m */; };
-		D7CFC37A1F9A7276009464A3 /* NSError+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC35B1F9A7275009464A3 /* NSError+STTwitter.h */; };
-		D7CFC37B1F9A7276009464A3 /* STTwitterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC35C1F9A7275009464A3 /* STTwitterProtocol.h */; };
+		D7CFC37A1F9A7276009464A3 /* NSError+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC35B1F9A7275009464A3 /* NSError+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CFC37B1F9A7276009464A3 /* STTwitterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC35C1F9A7275009464A3 /* STTwitterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC37C1F9A7276009464A3 /* STTwitterStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC35D1F9A7275009464A3 /* STTwitterStreamParser.m */; };
-		D7CFC37D1F9A7276009464A3 /* NSDateFormatter+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC35E1F9A7275009464A3 /* NSDateFormatter+STTwitter.h */; };
+		D7CFC37D1F9A7276009464A3 /* NSDateFormatter+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC35E1F9A7275009464A3 /* NSDateFormatter+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC37E1F9A7276009464A3 /* STTwitterHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC35F1F9A7275009464A3 /* STTwitterHTML.m */; };
 		D7CFC37F1F9A7276009464A3 /* STTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3601F9A7275009464A3 /* STTwitterAPI.m */; };
 		D7CFC3801F9A7276009464A3 /* NSDateFormatter+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3611F9A7275009464A3 /* NSDateFormatter+STTwitter.m */; };
 		D7CFC3811F9A7276009464A3 /* NSString+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3621F9A7275009464A3 /* NSString+STTwitter.m */; };
-		D7CFC3821F9A7276009464A3 /* STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3631F9A7275009464A3 /* STTwitter.h */; };
-		D7CFC3831F9A7276009464A3 /* STTwitterHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3641F9A7275009464A3 /* STTwitterHTML.h */; };
-		D7CFC3841F9A7276009464A3 /* STTwitterOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3651F9A7275009464A3 /* STTwitterOS.h */; };
-		D7CFC3851F9A7276009464A3 /* STTwitterAppOnly.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3661F9A7275009464A3 /* STTwitterAppOnly.h */; };
+		D7CFC3821F9A7276009464A3 /* STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3631F9A7275009464A3 /* STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CFC3831F9A7276009464A3 /* STTwitterHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3641F9A7275009464A3 /* STTwitterHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CFC3841F9A7276009464A3 /* STTwitterOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3651F9A7275009464A3 /* STTwitterOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CFC3851F9A7276009464A3 /* STTwitterAppOnly.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3661F9A7275009464A3 /* STTwitterAppOnly.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC3861F9A7276009464A3 /* STTwitterRequestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3671F9A7275009464A3 /* STTwitterRequestProtocol.h */; };
-		D7CFC3871F9A7276009464A3 /* STHTTPRequest+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3681F9A7276009464A3 /* STHTTPRequest+STTwitter.h */; };
-		D7CFC3881F9A7276009464A3 /* STTwitterOSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3691F9A7276009464A3 /* STTwitterOSRequest.h */; };
+		D7CFC3871F9A7276009464A3 /* STHTTPRequest+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3681F9A7276009464A3 /* STHTTPRequest+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CFC3881F9A7276009464A3 /* STTwitterOSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3691F9A7276009464A3 /* STTwitterOSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC3891F9A7276009464A3 /* STTwitterOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC36A1F9A7276009464A3 /* STTwitterOAuth.m */; };
 /* End PBXBuildFile section */
 
