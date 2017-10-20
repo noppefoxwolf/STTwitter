@@ -17,11 +17,11 @@
 		D7CFC3711F9A7276009464A3 /* NSError+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3511F9A7274009464A3 /* NSError+STTwitter.m */; };
 		D7CFC3721F9A7276009464A3 /* STTwitterOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3521F9A7274009464A3 /* STTwitterOSRequest.m */; };
 		D7CFC3731F9A7276009464A3 /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3531F9A7274009464A3 /* STTwitterOS.m */; };
-		D7CFC3741F9A7276009464A3 /* BAVPlistNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3551F9A7275009464A3 /* BAVPlistNode.h */; };
+		D7CFC3741F9A7276009464A3 /* BAVPlistNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3551F9A7275009464A3 /* BAVPlistNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC3751F9A7276009464A3 /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3561F9A7275009464A3 /* BAVPlistNode.m */; };
-		D7CFC3761F9A7276009464A3 /* JSONSyntaxHighlight.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3571F9A7275009464A3 /* JSONSyntaxHighlight.h */; };
+		D7CFC3761F9A7276009464A3 /* JSONSyntaxHighlight.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3571F9A7275009464A3 /* JSONSyntaxHighlight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC3771F9A7276009464A3 /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC3581F9A7275009464A3 /* JSONSyntaxHighlight.m */; };
-		D7CFC3781F9A7276009464A3 /* STHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3591F9A7275009464A3 /* STHTTPRequest.h */; };
+		D7CFC3781F9A7276009464A3 /* STHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC3591F9A7275009464A3 /* STHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC3791F9A7276009464A3 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFC35A1F9A7275009464A3 /* STHTTPRequest.m */; };
 		D7CFC37A1F9A7276009464A3 /* NSError+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC35B1F9A7275009464A3 /* NSError+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CFC37B1F9A7276009464A3 /* STTwitterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CFC35C1F9A7275009464A3 /* STTwitterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -108,34 +108,34 @@
 		D7CFC3421F9A725D009464A3 /* STTwitter */ = {
 			isa = PBXGroup;
 			children = (
-				D7CFC3431F9A725D009464A3 /* STTwitter.h */,
 				D7CFC35E1F9A7275009464A3 /* NSDateFormatter+STTwitter.h */,
-				D7CFC3611F9A7275009464A3 /* NSDateFormatter+STTwitter.m */,
 				D7CFC35B1F9A7275009464A3 /* NSError+STTwitter.h */,
-				D7CFC3511F9A7274009464A3 /* NSError+STTwitter.m */,
 				D7CFC34F1F9A7274009464A3 /* NSString+STTwitter.h */,
-				D7CFC3621F9A7275009464A3 /* NSString+STTwitter.m */,
 				D7CFC3681F9A7276009464A3 /* STHTTPRequest+STTwitter.h */,
-				D7CFC34E1F9A7274009464A3 /* STHTTPRequest+STTwitter.m */,
+				D7CFC3431F9A725D009464A3 /* STTwitter.h */,
 				D7CFC3631F9A7275009464A3 /* STTwitter.h */,
 				D7CFC34B1F9A7274009464A3 /* STTwitterAPI.h */,
-				D7CFC3601F9A7275009464A3 /* STTwitterAPI.m */,
 				D7CFC3661F9A7275009464A3 /* STTwitterAppOnly.h */,
-				D7CFC34D1F9A7274009464A3 /* STTwitterAppOnly.m */,
 				D7CFC3641F9A7275009464A3 /* STTwitterHTML.h */,
-				D7CFC35F1F9A7275009464A3 /* STTwitterHTML.m */,
 				D7CFC3501F9A7274009464A3 /* STTwitterOAuth.h */,
-				D7CFC36A1F9A7276009464A3 /* STTwitterOAuth.m */,
 				D7CFC3651F9A7275009464A3 /* STTwitterOS.h */,
-				D7CFC3531F9A7274009464A3 /* STTwitterOS.m */,
 				D7CFC3691F9A7276009464A3 /* STTwitterOSRequest.h */,
-				D7CFC3521F9A7274009464A3 /* STTwitterOSRequest.m */,
 				D7CFC35C1F9A7275009464A3 /* STTwitterProtocol.h */,
 				D7CFC3671F9A7275009464A3 /* STTwitterRequestProtocol.h */,
 				D7CFC34C1F9A7274009464A3 /* STTwitterStreamParser.h */,
+				D7CFC3611F9A7275009464A3 /* NSDateFormatter+STTwitter.m */,
+				D7CFC3511F9A7274009464A3 /* NSError+STTwitter.m */,
+				D7CFC3621F9A7275009464A3 /* NSString+STTwitter.m */,
+				D7CFC34E1F9A7274009464A3 /* STHTTPRequest+STTwitter.m */,
+				D7CFC3601F9A7275009464A3 /* STTwitterAPI.m */,
+				D7CFC34D1F9A7274009464A3 /* STTwitterAppOnly.m */,
+				D7CFC35F1F9A7275009464A3 /* STTwitterHTML.m */,
+				D7CFC36A1F9A7276009464A3 /* STTwitterOAuth.m */,
+				D7CFC3531F9A7274009464A3 /* STTwitterOS.m */,
+				D7CFC3521F9A7274009464A3 /* STTwitterOSRequest.m */,
 				D7CFC35D1F9A7275009464A3 /* STTwitterStreamParser.m */,
-				D7CFC3541F9A7275009464A3 /* Vendor */,
 				D7CFC3441F9A725D009464A3 /* Info.plist */,
+				D7CFC3541F9A7275009464A3 /* Vendor */,
 			);
 			path = STTwitter;
 			sourceTree = "<group>";
